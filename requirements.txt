@@ -1,0 +1,8 @@
+numpy
+pandas
+plotly
+matplotlib
+scipy
+pandas_datareader
+xhtml2pdf
+kaleido
