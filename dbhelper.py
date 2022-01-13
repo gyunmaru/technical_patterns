@@ -21,7 +21,7 @@ class dbhelper(object):
     def write2db(cls, dbname, tblname, df, if_exists: str = 'replace'):
         with sqlite3.connect(dbname) as conn:
             cur = conn.cursor()
-            df.to_sql(tblname, conn, if_exists=if_exists)
+            df.to_sql(tblname, conn, if_exists=if_exists, index=False)
 
 
 # %%
