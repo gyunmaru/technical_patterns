@@ -1,0 +1,16 @@
+
+<!-- wp:heading -->
+<h2>{}</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<iframe 
+    src="http://trade-ganbaru.conohawing.com/wp-content/uploads/2022/01/plotly.html" 
+    width="684" height="400"　frameborder="0" style="border:0;"
+ >
+</iframe>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>ここにコメントを書き込む</p>
+<!-- /wp:paragraph -->

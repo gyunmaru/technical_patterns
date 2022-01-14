@@ -31,8 +31,17 @@ def codes_() -> pd.Series:
     DBNAME = "TechDb"
     sqlstr = f"select Symbols from OHLC group by Symbols"
     codes = db.sqldb(DBNAME, sqlstr)
+    codes = codes\
+        .loc[codes.Symbols.str.match("[0-9]{4}\.T"), :]\
+        .reset_index(drop=True)
 
     return codes.Symbols
+
+
+def code2name(code):
+    DBNAME = "TechDb"
+    sqlstr = f"select 名称 from mv_ranking where コード == '{code[:-2]}' "
+    return(db.sqldb(DBNAME, sqlstr).iloc[0, 0])
 
 
 def convert_html_to_pdf(source_html, output_filename):
