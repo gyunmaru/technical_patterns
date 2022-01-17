@@ -1,0 +1,26 @@
+
+<!-- wp:cocoon-blocks/iconlist-box {{"icon":"list-check-square"}} -->
+<div 
+class="wp-block-cocoon-blocks-iconlist-box iconlist-box blank-box list-check-square block-box">
+<div class="iconlist-title"></div>
+<!-- wp:list {{"backgroundColor":"watery-blue","textColor":"key-color"}} -->
+<ul class="has-key-color-color has-watery-blue-background-color has-text-color has-background">
+    <li>
+        <a href="{}" data-type="URL" data-id="{}" target="_blank" rel="noreferrer noopener">
+        <span class="fz-16px">{}</span></a>
+    </li>
+    <li>
+        <a href="{}" data-type="URL" data-id="{}" target="_blank" rel="noreferrer noopener">
+        <span class="fz-16px">{}</span></a>
+    </li>
+    <li>
+        <a href="{}" data-type="URL" data-id="{}" target="_blank" rel="noreferrer noopener">
+        <span class="fz-16px">{}</span></a>
+    </li>
+</ul>
+<!-- /wp:list --></div>
+<!-- /wp:cocoon-blocks/iconlist-box -->
+
+<!-- wp:cocoon-blocks/micro-balloon-2 {{"content":"yahooファイナンスさんの銘柄別ニュース、トップ3","type":"micro-bottom","isCircle":true,"align":"right"}} -->
+<div class="wp-block-cocoon-blocks-micro-balloon-2 alignright micro-balloon micro-bottom mc-circle micro-copy"><span class="micro-balloon-content micro-content">yahooファイナンスさんの銘柄別ニュース、トップ3</span></div>
+<!-- /wp:cocoon-blocks/micro-balloon-2 -->

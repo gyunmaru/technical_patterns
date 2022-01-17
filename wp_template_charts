@@ -5,7 +5,7 @@
 
 <!-- wp:html -->
 <iframe 
-    src="http://trade-ganbaru.conohawing.com/wp-content/uploads/2022/01/plotly.html" 
+    src="{}" 
     width="684" height="400"　frameborder="0" style="border:0;"
  >
 </iframe>

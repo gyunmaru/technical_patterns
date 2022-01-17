@@ -5,7 +5,6 @@ if __name__ == "__main__":
     os.chdir("/workspaces/technical_patterns/")
     # import importlib
     # importlib.reload(sys.modules['utils'])
-from dataclasses import replace
 import datetime
 from utils import code2name, ohlc_, codes_
 

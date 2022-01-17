@@ -6,3 +6,4 @@ scipy
 pandas_datareader
 xhtml2pdf
 kaleido
+beautifulsoup4

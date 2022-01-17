@@ -43,3 +43,13 @@ run_python_file('goldencross.py', wkdir)
 # %%
 
 run_python_file('macd.py', wkdir)
+
+# %%
+run_python_file('graph.py', wkdir)
+
+# %%
+
+run_python_file('upload_graph_html.py', wkdir)
+# %%
+
+run_python_file('scrape_news.py', wkdir)
